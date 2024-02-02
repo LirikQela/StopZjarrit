@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 150, 14) !important;
+}
+
+.headerSelectedRrethNesh{
+    background-color: black;
+    color: white !important;
+    border-radius: 35px;
+}
+
+a{
+    text-decoration: none ;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.selectedRrethNesh , a:hover{
+    background-color: black;
+    color: white !important;
+    border-radius: 35px;
+}
+
+.body{
+    padding-top: 100px;
+    height: 2700px;    
+    background-color: rgb(14, 150, 14);
+}
+
+.body h1{
+    margin: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.body p{
+    margin: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.center{
+    width: 100%;
+}
+
+.email{
+    color: white;
+    font-size: 30px;
+}
+
+.email:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    background-color: green;
+}

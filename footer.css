@@ -1,0 +1,17 @@
+.footnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(168, 241, 84); 
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footnav a{
+    text-decoration: none !important;
+    border-radius: 10px;
+    color: black;
+}

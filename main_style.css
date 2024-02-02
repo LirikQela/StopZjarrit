@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:first-of-type,
+a:hover {
+    background-color: black;
+    color: white !important;
+    border-radius: 35px;
+}
+
+.body {
+    height: auto;
+    padding-top: 90px;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(14, 150, 14) !important;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 30px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.welcomeImg {
+    background-image: url(ac.JPG);
+    width: 350px;
+    height: 500px;
+    margin: 30px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.left p,
+.right p {
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+}
+
+.right {
+    margin: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
